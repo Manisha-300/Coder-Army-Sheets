@@ -1,8 +1,22 @@
-package src.Arrays;
+
 import java.util.Scanner;
 
-public class Search {
-    public static int linearSearch(int[] arr, int target) {
+public class Search1 {
+    public static int Search(int[] arr, int target) {
+        int n = arr.length;
+        if (n < 1) {
+            System.out.println("Array cannot be empty");
+        }
+        if (n > 100000) {
+                      System.out.println ("Array size too large: " + n + " > 100,000");
+        }
+        if (target < 0) {
+                      System.out.println("Target cannot be negative: " + target);
+        }
+        if (target > 20000000) {
+                       System.out.println
+                       ("Target too large: " + target + " > 20,000,000");
+        }
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == target) {
                 return i; // Target found at index i
@@ -34,10 +48,10 @@ public class Search {
             arr2[i]=scanner.nextInt();
         }
         int target2=scanner.nextInt();
-        int result2=linearSearch(arr2,target2);
+        int result2=Search(arr2,target2);
         System.out.println("Linear Search on user input: Target found at index " + result2);
-        int result3=binarySearch(arr2,target2);
-        System.out.println("Binary Search on user input: Target found at index " + result3);
+    //    int result3=binarySearch(arr2,target2);
+    //    System.out.println("Binary Search on user input: Target found at index " + result3);
 
         // int[] arr = {1, 3, 5, 7, 9, 11};
         // int target = 7;
