@@ -1,3 +1,4 @@
+package src.Arrays;
 import java.util.Scanner;
 
 public class BinarySearch {
