@@ -1,3 +1,4 @@
+package src.Arrays;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -25,12 +26,12 @@ public class GreaterOnRightSide {
         return finalResult;
     }
     public static void main(String[] args) {
-            Scanner s= new Scanner(System.in);
+       Scanner s= new Scanner(System.in);
            int n=s.nextInt();
                 int [] arr=new int[n];
                 for(int i=0;i<n;i++){
                     arr[i]=s.nextInt();
-                }
+                }            
                 ArrayList<Integer> res=nextGreatest(arr);
                 System.out.println("Array with next greatest elements: " + res);
                 s.close();

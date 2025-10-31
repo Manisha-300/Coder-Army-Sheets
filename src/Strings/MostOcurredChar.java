@@ -1,3 +1,4 @@
+package src.Strings;
 public class MostOcurredChar {
 
      public static char getMaxOccuringChar(String s) {

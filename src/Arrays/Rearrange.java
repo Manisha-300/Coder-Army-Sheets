@@ -1,3 +1,4 @@
+package src.Arrays;
 import java.util.Scanner;
 
 public class Rearrange {
@@ -18,7 +19,9 @@ public class Rearrange {
                 for(int i=0;i<n;i++){
                     arr[i]=s.nextInt();
                 }  
+
                rearrange(arr);
+               s.close();
             }
 
 }

@@ -1,3 +1,4 @@
+package src.Arrays;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -27,6 +28,7 @@ public class MissandRepeat {
                 }            
                 ArrayList<Integer> res=findTwoElement(arr);
                 System.out.println("Array with next greatest elements: " + res);
+                s.close();
     }
     
 }

@@ -1,3 +1,4 @@
+package src.Strings;
 public class RotatedString {
     public static boolean isRotated(String str1, String str2) {
         // code here

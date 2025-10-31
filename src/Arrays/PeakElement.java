@@ -1,3 +1,4 @@
+package src.Arrays;
 public class PeakElement {
      public static int  peakElement(int[] arr) {
         // code here
