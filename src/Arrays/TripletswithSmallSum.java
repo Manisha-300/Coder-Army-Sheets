@@ -19,7 +19,7 @@ static long countTriplets(int n, int sum, long arr[]) {
         return count;
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int sum = sc.nextInt();
         long[] arr = new long[n];
@@ -35,6 +35,6 @@ static long countTriplets(int n, int sum, long arr[]) {
 
 
 
-                sc.close();
+                sc.close()        ;
     }
 }

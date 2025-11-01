@@ -1,3 +1,4 @@
+package src.Strings;
 public class SmallestSubstring {
      public static int smallestSubstring(String s) {
         // Code here
