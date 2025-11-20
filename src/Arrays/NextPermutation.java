@@ -1,3 +1,4 @@
+package src.Arrays;
 
 
 public class NextPermutation {

@@ -1,3 +1,4 @@
+package src.Arrays;
 public class RotateImage {
     public static void rotate(int[][] m) {
          int n = m.length;

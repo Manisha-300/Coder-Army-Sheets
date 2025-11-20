@@ -1,3 +1,4 @@
+package src.Strings;
 public class Atoi {
      public static int atoi(final String s) {
           if (s == null || s.isEmpty()) return 0;

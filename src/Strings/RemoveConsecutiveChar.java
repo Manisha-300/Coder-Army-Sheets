@@ -1,3 +1,4 @@
+package src.Strings;
 public class RemoveConsecutiveChar {
      public static String solve(String s, int b) {
              

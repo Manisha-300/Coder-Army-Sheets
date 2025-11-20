@@ -1,3 +1,4 @@
+package src.Strings;
 import java.util.Scanner;
 
 public class BullsAndCows {

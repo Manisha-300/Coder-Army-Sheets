@@ -1,3 +1,4 @@
+package src.Strings;
 public class TransformString{
    static int transform(String A, String B) {
         // code here

@@ -1,3 +1,4 @@
+package src.Arrays;
 public class CountPrimes {
     public static int countPrimes(int n) {
       if (n <= 2) return 0;
